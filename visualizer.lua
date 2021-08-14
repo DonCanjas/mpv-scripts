@@ -1,4 +1,5 @@
 -- various audio visualization
+-- forked from https://github.com/mfcc64/mpv-scripts
 
 local opts = {
     mode = "noalbumart",
