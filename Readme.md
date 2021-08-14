@@ -1,6 +1,6 @@
 ## mpv visualizer lua script
 
-visualizer.lua - various audio visualization.
+Various audio visualization.
 
 ## Key bindings
 
