@@ -1,13 +1,13 @@
 -- various audio visualization
 
 local opts = {
-    mode = "novideo",
+    mode = "noalbumart",
     -- off              disable visualization
     -- noalbumart       enable visualization when no albumart and no video
     -- novideo          enable visualization when no video
     -- force            always enable visualization
 
-    name = "showcqt",
+    name = "showcqtbar",
     -- off
     -- showcqt
     -- avectorscope
@@ -15,7 +15,7 @@ local opts = {
     -- showcqtbar
     -- showwaves
 
-    quality = "medium",
+    quality = "high",
     -- verylow
     -- low
     -- medium
@@ -150,10 +150,10 @@ local function get_visualizer(name, quality, vtrack, albumart)
         fps = 60
     elseif quality == "high" then
         w = 1920
-        fps = 60
+        fps = 144
     elseif quality == "veryhigh" then
         w = 2560
-        fps = 60
+        fps = 144
     else
         msg.log("error", "invalid quality")
         return ""
