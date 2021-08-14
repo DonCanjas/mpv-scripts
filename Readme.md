@@ -1,8 +1,6 @@
-## Various mpv lua scripts
+## mpv visualizer lua script
 
-- visualizer.lua - various audio visualization.
-
-- firequalizer.lua - linear phase 15-bands equalizer.
+visualizer.lua - various audio visualization.
 
 ## Key bindings
 
@@ -32,9 +30,6 @@ Look at the lua scripts.
 
 ![showwaves](screenshoots/showwaves.jpg)
 
-### firequalizer15.lua
-
-![firequalizer15](screenshoots/firequalizer15.jpg)
 
 ## Related projects
 
